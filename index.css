@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria&display=swap');
+*{
+    text-align: center;
+}
+body {
+    margin-top: 15%;
+    background-color: #141414;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow: hidden;
+}
+.comming-text, .wait-text{
+    display: block;
+    font-size: 62px;
+    font-family: 'Alexandria', sans-serif;
+   
+}
+
+.text{
+    border-style: solid;
+    border-color: black;
+    margin-right: 100px;
+    margin-left: 100px;
+    color: #ffffff;
+    padding: 20px;
+}
