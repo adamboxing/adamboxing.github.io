@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap');
+
+body {
+    background-color: black;
+    color: #fff;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+a {
+    text-decoration: none;
+}
+.adam-boxing-logo{
+    width: 300px;
+}
+.login-account{
+    float: right;
+    font-size: 26px;
+     color:white;
+     text-decoration: none;
+}
+
+.boxing-word{
+    color: #fff;
+}
+.register-to-me {
+    color: rgba(255,64,87,255);
+    font-family: 'Source Code Pro', monospace;
+}
+.register-text{
+    font-family: 'PT Serif', serif;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.register-container {
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    font-family: 'Noto SerifKR', serif;
+  }
+  
+  input[type="email"], input[type="text"], input[type="password"] {
+    height: 35px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+  }
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgba(255,64,87,255);
+    text-decoration: underline;
+  }
+  
+  button[type="submit"] {
+    background-color: rgba(255,64,87,255);
+    color: #ffffff;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px; 
+  }
+  
+  button:hover{
+    background-color: #ffffff;
+    color: rgba(255,64,87,255);
+  }
+
+@media (max-width: 500px) {
+    .adam-boxing-logo{
+        width: 180px;
+        margin-top: 4px;
+    }
+
+    .login-account{
+        font-size: 20px;
+       
+        margin-top: px;
+    }
+
+    .login-container{
+        margin-top: -100px;
+    }
+  }
+  
